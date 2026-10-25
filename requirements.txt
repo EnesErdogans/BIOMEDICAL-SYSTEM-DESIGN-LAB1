@@ -1,0 +1,6 @@
+numpy>=2.0
+pandas>=2.0
+scikit-learn>=1.5
+matplotlib>=3.8
+reportlab>=4.0
+pillow>=10.0

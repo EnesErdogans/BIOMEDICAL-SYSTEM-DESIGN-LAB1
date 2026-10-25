@@ -1,0 +1,269 @@
+{
+  "split": {
+    "train": 455,
+    "test": 114,
+    "train_malignant": 170,
+    "test_malignant": 42
+  },
+  "features_C1": [
+    "mean radius",
+    "mean texture",
+    "mean smoothness",
+    "mean concave points",
+    "mean symmetry"
+  ],
+  "C1": {
+    "intercept_standardized": -0.6585351654915799,
+    "coef_standardized": {
+      "mean radius": 2.678036959021264,
+      "mean texture": 1.4198794778073467,
+      "mean smoothness": 0.7178242468881947,
+      "mean concave points": 2.2634654134635652,
+      "mean symmetry": 0.3871514896081043
+    },
+    "odds_ratio_per_std": {
+      "mean radius": 14.556490243729256,
+      "mean texture": 4.136621855470532,
+      "mean smoothness": 2.049968130410377,
+      "mean concave points": 9.616356141604511,
+      "mean symmetry": 1.4727795851766872
+    },
+    "coef_raw_units": {
+      "mean radius": 0.7490706887636719,
+      "mean texture": 0.33128812216673226,
+      "mean smoothness": 50.218720016256015,
+      "mean concave points": 57.09717329744089,
+      "mean symmetry": 14.019175736087739
+    },
+    "intercept_raw_units": -27.866457142145446,
+    "train_std": {
+      "mean radius": 3.575145842966192,
+      "mean texture": 4.285935362007162,
+      "mean smoothness": 0.014293957445666316,
+      "mean concave points": 0.03964233748792279,
+      "mean symmetry": 0.02761585252202172
+    },
+    "test@0.5": {
+      "threshold": 0.5,
+      "accuracy": 0.9385964912280702,
+      "precision": 0.9069767441860465,
+      "recall": 0.9285714285714286,
+      "f1": 0.9176470588235294,
+      "TN": 68,
+      "FP": 4,
+      "FN": 3,
+      "TP": 39
+    },
+    "test_auc": 0.982473544973545,
+    "test_logloss": 0.1679516789842121,
+    "train_accuracy": 0.9406593406593406,
+    "examples": [
+      {
+        "z": -7.193367023586532,
+        "p": 0.0007509899445789667,
+        "y": 0
+      },
+      {
+        "z": 11.252214296223139,
+        "p": 0.9999870216409316,
+        "y": 1
+      },
+      {
+        "z": 0.40277597033295454,
+        "p": 0.5993544337213152,
+        "y": 0
+      }
+    ],
+    "misclassified": [
+      {
+        "p": 0.5993544337213152,
+        "y": 0,
+        "mean radius": 16.17,
+        "mean texture": 16.07,
+        "mean smoothness": 0.0988,
+        "mean concave points": 0.05397,
+        "mean symmetry": 0.199
+      },
+      {
+        "p": 0.6829341264173246,
+        "y": 0,
+        "mean radius": 13.38,
+        "mean texture": 30.72,
+        "mean smoothness": 0.09245,
+        "mean concave points": 0.03264,
+        "mean symmetry": 0.1375
+      },
+      {
+        "p": 0.4372008490771439,
+        "y": 1,
+        "mean radius": 13.48,
+        "mean texture": 20.82,
+        "mean smoothness": 0.1016,
+        "mean concave points": 0.05439,
+        "mean symmetry": 0.172
+      },
+      {
+        "p": 0.11743221103921368,
+        "y": 1,
+        "mean radius": 13.8,
+        "mean texture": 15.79,
+        "mean smoothness": 0.1007,
+        "mean concave points": 0.05069,
+        "mean symmetry": 0.1662
+      },
+      {
+        "p": 0.9111198177720451,
+        "y": 0,
+        "mean radius": 15.1,
+        "mean texture": 16.39,
+        "mean smoothness": 0.115,
+        "mean concave points": 0.08534,
+        "mean symmetry": 0.2001
+      },
+      {
+        "p": 0.7774530060162923,
+        "y": 0,
+        "mean radius": 14.05,
+        "mean texture": 27.15,
+        "mean smoothness": 0.09929,
+        "mean concave points": 0.04304,
+        "mean symmetry": 0.1537
+      },
+      {
+        "p": 0.11988089354029341,
+        "y": 1,
+        "mean radius": 15.12,
+        "mean texture": 16.68,
+        "mean smoothness": 0.08876,
+        "mean concave points": 0.04079,
+        "mean symmetry": 0.1594
+      }
+    ]
+  },
+  "C2": {
+    "test": {
+      "0.3": {
+        "threshold": 0.3,
+        "accuracy": 0.9122807017543859,
+        "precision": 0.8333333333333334,
+        "recall": 0.9523809523809523,
+        "f1": 0.8888888888888888,
+        "TN": 64,
+        "FP": 8,
+        "FN": 2,
+        "TP": 40
+      },
+      "0.5": {
+        "threshold": 0.5,
+        "accuracy": 0.9385964912280702,
+        "precision": 0.9069767441860465,
+        "recall": 0.9285714285714286,
+        "f1": 0.9176470588235294,
+        "TN": 68,
+        "FP": 4,
+        "FN": 3,
+        "TP": 39
+      },
+      "0.7": {
+        "threshold": 0.7,
+        "accuracy": 0.9122807017543859,
+        "precision": 0.9444444444444444,
+        "recall": 0.8095238095238095,
+        "f1": 0.8717948717948718,
+        "TN": 70,
+        "FP": 2,
+        "FN": 8,
+        "TP": 34
+      }
+    },
+    "train_cv": {
+      "0.3": {
+        "threshold": 0.3,
+        "accuracy": 0.9230769230769231,
+        "precision": 0.8648648648648649,
+        "recall": 0.9411764705882353,
+        "f1": 0.9014084507042254,
+        "TN": 260,
+        "FP": 25,
+        "FN": 10,
+        "TP": 160
+      },
+      "0.5": {
+        "threshold": 0.5,
+        "accuracy": 0.9406593406593406,
+        "precision": 0.949685534591195,
+        "recall": 0.888235294117647,
+        "f1": 0.9179331306990881,
+        "TN": 277,
+        "FP": 8,
+        "FN": 19,
+        "TP": 151
+      },
+      "0.7": {
+        "threshold": 0.7,
+        "accuracy": 0.9384615384615385,
+        "precision": 0.9863013698630136,
+        "recall": 0.8470588235294118,
+        "f1": 0.9113924050632911,
+        "TN": 283,
+        "FP": 2,
+        "FN": 26,
+        "TP": 144
+      }
+    }
+  },
+  "C3": {
+    "one_feature": {
+      "features": [
+        "mean radius"
+      ],
+      "coef_standardized": [
+        3.265291638213661
+      ],
+      "intercept": -0.6281094415896074,
+      "test@0.5": {
+        "threshold": 0.5,
+        "accuracy": 0.8596491228070176,
+        "precision": 0.8823529411764706,
+        "recall": 0.7142857142857143,
+        "f1": 0.7894736842105263,
+        "TN": 68,
+        "FP": 4,
+        "FN": 12,
+        "TP": 30
+      },
+      "test_auc": 0.9365079365079365,
+      "test_logloss": 0.2929476516519125,
+      "decision_point_raw": 14.853789724208339
+    },
+    "two_features": {
+      "features": [
+        "mean radius",
+        "mean texture"
+      ],
+      "coef_standardized": [
+        3.2571335094384546,
+        0.8679788548228679
+      ],
+      "intercept": -0.6903927342317058,
+      "test@0.5": {
+        "threshold": 0.5,
+        "accuracy": 0.868421052631579,
+        "precision": 0.8857142857142857,
+        "recall": 0.7380952380952381,
+        "f1": 0.8051948051948052,
+        "TN": 68,
+        "FP": 4,
+        "FN": 11,
+        "TP": 31
+      },
+      "test_auc": 0.9553571428571429,
+      "test_logloss": 0.2580216390081843,
+      "mean_dist_correct": 0.9801497554141094,
+      "mean_dist_wrong": 0.244200044870874,
+      "n_within_0.5std_of_boundary": 35,
+      "error_rate_within_0.5std": 0.37142857142857144,
+      "error_rate_beyond_0.5std": 0.02531645569620253
+    }
+  }
+}

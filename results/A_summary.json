@@ -1,0 +1,130 @@
+{
+  "regression": {
+    "n": 442,
+    "n_features": 10,
+    "missing": 0,
+    "target_mean": 152.13348416289594,
+    "target_std": 77.09300453299109,
+    "target_min": 25.0,
+    "target_max": 346.0,
+    "corr_with_target": {
+      "bmi": 0.586,
+      "s5": 0.566,
+      "bp": 0.441,
+      "s4": 0.43,
+      "s6": 0.382,
+      "s1": 0.212,
+      "age": 0.188,
+      "s2": 0.174,
+      "sex": 0.043,
+      "s3": -0.395
+    },
+    "describe": {
+      "age": {
+        "mean": 48.52,
+        "std": 13.11,
+        "min": 19.0,
+        "max": 79.0
+      },
+      "sex": {
+        "mean": 1.47,
+        "std": 0.5,
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bmi": {
+        "mean": 26.38,
+        "std": 4.42,
+        "min": 18.0,
+        "max": 42.2
+      },
+      "bp": {
+        "mean": 94.65,
+        "std": 13.83,
+        "min": 62.0,
+        "max": 133.0
+      },
+      "s1": {
+        "mean": 189.14,
+        "std": 34.61,
+        "min": 97.0,
+        "max": 301.0
+      },
+      "s2": {
+        "mean": 115.44,
+        "std": 30.41,
+        "min": 41.6,
+        "max": 242.4
+      },
+      "s3": {
+        "mean": 49.79,
+        "std": 12.93,
+        "min": 22.0,
+        "max": 99.0
+      },
+      "s4": {
+        "mean": 4.07,
+        "std": 1.29,
+        "min": 2.0,
+        "max": 9.09
+      },
+      "s5": {
+        "mean": 4.64,
+        "std": 0.52,
+        "min": 3.26,
+        "max": 6.11
+      },
+      "s6": {
+        "mean": 91.26,
+        "std": 11.5,
+        "min": 58.0,
+        "max": 124.0
+      },
+      "target": {
+        "mean": 152.13,
+        "std": 77.09,
+        "min": 25.0,
+        "max": 346.0
+      }
+    }
+  },
+  "classification": {
+    "n": 569,
+    "n_features_total": 30,
+    "missing": 0,
+    "malignant": 212,
+    "benign": 357,
+    "describe": {
+      "mean radius": {
+        "mean": 14.127,
+        "std": 3.524,
+        "min": 6.981,
+        "max": 28.11
+      },
+      "mean texture": {
+        "mean": 19.29,
+        "std": 4.301,
+        "min": 9.71,
+        "max": 39.28
+      },
+      "mean smoothness": {
+        "mean": 0.096,
+        "std": 0.014,
+        "min": 0.053,
+        "max": 0.163
+      },
+      "mean concave points": {
+        "mean": 0.049,
+        "std": 0.039,
+        "min": 0.0,
+        "max": 0.201
+      },
+      "mean symmetry": {
+        "mean": 0.181,
+        "std": 0.027,
+        "min": 0.106,
+        "max": 0.304
+      }
+    }
+  }
+}
